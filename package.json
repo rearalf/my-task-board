@@ -1,0 +1,19 @@
+{
+  "name": "my-task-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "npm@8.5.0"
+}
